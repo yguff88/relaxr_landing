@@ -5,6 +5,9 @@ Front End Developer @GA in NYC
 */
 
 /* Box Model Hack */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
 * {
   -moz-box-sizing: border-box; /* Firexfox */
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -17,6 +20,40 @@ Front End Developer @GA in NYC
 	height:500px;
   	background-size:cover;
   	background-position:center;
+}
 
+header h1 {
+	margin:0px;
+	padding-top:30px;
+	padding-left:100px;
+	color:white;
+	font-size:24px;
+	font-family:"Open Sans";
+	font-weight:800;
+}
+
+header h2 {
+	text-align:center;
+	font-family:"Open Sans";
+	font-size:30px;
+	font-weight:600;
+	color:white;
+	padding-top:75px;
+}
+
+header p {
+	text-align:center;
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:14px;
+	padding-top:50px;
+}
+
+header a {
+	color:#121212;
+	text-decoration: none;
+	background-color:#f9e42e;
+	border-radius:5px;
+	padding: 9px 35px 9px 35px;
 }
 
